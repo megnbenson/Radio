@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="3rdPressed.png" />
+    <None Remove="blackAllUp.png" />
+    <None Remove="blackFirstPressed.png" />
+    <None Remove="blackLastPressed.png" />
+    <None Remove="blackSecondPressed.png" />
+    <None Remove="blackThirdPressed.png" />
+    <None Remove="speaker.jfif" />
+    <None Remove="wood.jfif" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RadioApp\RadioApp.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="3rdPressed.png" />
+    <Resource Include="blackAllUp.png" />
+    <Resource Include="blackFirstPressed.png" />
+    <Resource Include="blackLastPressed.png" />
+    <Resource Include="blackSecondPressed.png" />
+    <Resource Include="blackThirdPressed.png" />
+    <Resource Include="speaker.jfif" />
+    <Resource Include="wood.jfif" />
+  </ItemGroup>
+
+</Project>
